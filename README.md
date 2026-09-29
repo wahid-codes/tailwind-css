@@ -1,2 +1,17 @@
-# tailwind-css
-Learning Tailwind CSS and building responsive web projects.
+# Tailwind CSS
+
+Learning Tailwind CSS through Brad Traversy's course.
+
+## Topics
+- Tailwind CSS fundamentals
+- Utility-first CSS
+- Responsive design
+- Building modern web interfaces
+
+## Projects
+Projects and exercises completed during the course.
+
+## Technologies
+- HTML
+- Tailwind CSS
+- JavaScript
