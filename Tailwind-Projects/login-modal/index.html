@@ -12,7 +12,7 @@
       tailwind.config = {
         theme: {
           fontFamily: {
-            sans: ["molish", "sans-serif"],
+            sans: ["Mulish", "sans-serif"],
             mono: ["Rokkitt", "monospace"],
           },
         },
@@ -31,14 +31,14 @@
         <div class="p-6 md:p-20">
           <!-- Top Content -->
           <h2 class="font-mono mb-5 text-4xl font-bold">Log In</h2>
-          <p class="max-w-sm mb-12 font-san font-light text-gray-600">
+          <p class="max-w-sm mb-12 font-sans font-light text-gray-600">
             Log in to your account to upload or download pictures, videos or
             music.
           </p>
           <input
             type="text"
-            placeholder="Enter your email adress"
-            class="w-full p-6 border border-gray-300 rounded-md placeholder:font-sans placeholder:font-ligh focus:outline-blue-300"
+            placeholder="Enter your email address"
+            class="w-full p-6 border border-gray-300 rounded-md placeholder:font-sans placeholder:font-light focus:outline-blue-300"
           />
 
           <!-- Middle Content -->
@@ -69,10 +69,56 @@
               </svg>
             </button>
           </div>
+
+          <!-- Border -->
+          <div class="mt-12 border-b border-b-blue-300"></div>
+
+          <!-- Bottom Content -->
+          <p class="py-6 text-sm font-thin text-center text-cyan-600">
+            Or log in with
+          </p>
+
+          <!-- Bottom Buttons Container -->
+          <div
+            class="flex flex-col space-x-0 space-y-6 md:flex-row md:space-x-4 md:space-y-0"
+          >
+            <button
+              class="flex items-center justify-center py-2 space-x-3 border border-gray-300 rounded shadow-sm hover:bg-opacity-30 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200 md:w-1/2"
+            >
+              <img src="images/facebook.png" alt="" class="w-9" />
+              <span>Facebook</span>
+            </button>
+            <button
+              class="flex items-center justify-center py-2 space-x-3 border border-gray-300 rounded shadow-sm hover:bg-opacity-30 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200 md:w-1/2"
+            >
+              <img src="images/google.png" alt="" class="w-9" />
+              <span>Google</span>
+            </button>
+          </div>
         </div>
 
         <!-- Right Side -->
         <img src="images/image.jpg" alt="" class="w-[430px] hidden md:block" />
+
+        <!-- Close Button -->
+        <div
+          class="group absolute -top-5 right-4 flex items-center justify-center w-10 h-10 bg-gray-200 rounded-full md:bg-white md:top-4 hover:cursor-pointer hover:-translate-y-0.5 transition duration-150"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18 18 6M6 6l12 12"
+            />
+          </svg>
+        </div>
       </div>
     </div>
   </body>
