@@ -610,14 +610,14 @@ video {
   border-radius: 9999px;
 }
 
-.bg-strongCyan {
-  --tw-bg-opacity: 1;
-  background-color: hsl(171 66% 44% / var(--tw-bg-opacity, 1));
-}
-
 .bg-lightBlue {
   --tw-bg-opacity: 1;
   background-color: hsl(233 100% 69% / var(--tw-bg-opacity, 1));
+}
+
+.bg-strongCyan {
+  --tw-bg-opacity: 1;
+  background-color: hsl(171 66% 44% / var(--tw-bg-opacity, 1));
 }
 
 .p-4 {
@@ -684,6 +684,18 @@ video {
 
 .duration-200 {
   transition-duration: 200ms;
+}
+
+body {
+  background-image: url("../images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (max-width: 576px) {
+  body {
+    background-image: url("../images/bg-header-mobile.png");
+  }
 }
 
 .hover\:opacity-80:hover {
