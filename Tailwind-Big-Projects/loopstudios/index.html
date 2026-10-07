@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
+    <script src="js/script.js" defer></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./css/output.css" />
     <title>Loopstudio website</title>
@@ -66,7 +67,7 @@
             <button
               id="menu-btn"
               type="button"
-              class="open z-40 block hamburger md:hidden focus:outline-none"
+              class="z-40 block hamburger md:hidden focus:outline-none"
             >
               <span class="hamburger-top"></span
               ><span class="hamburger-middle"></span
@@ -75,7 +76,17 @@
           </div>
         </nav>
 
-        <!-- @todo - Mobile Menu -->
+        <!-- Mobile Menu -->
+        <div
+          class="absolute inset-0 flex flex-col items-center justify-center w-screen min-h-screen space-y-6 text-lg text-white uppercase bg-black"
+          id="menu"
+        >
+          <a href="#" class="hover:text-pink-500">About</a>
+          <a href="#" class="hover:text-pink-500">Careers</a>
+          <a href="#" class="hover:text-pink-500">Events</a>
+          <a href="#" class="hover:text-pink-500">Products</a>
+          <a href="#" class="hover:text-pink-500">Support</a>
+        </div>
         <div
           class="max-w-lg mt-32 mb-32 p-4 font-sans text-4xl text-white uppercase border-2 md:p-10 md:m-32 md:mx-0 md:text-6xl"
         >
