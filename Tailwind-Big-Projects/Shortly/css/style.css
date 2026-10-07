@@ -612,12 +612,28 @@ video {
   left: 4rem;
 }
 
+.left-6 {
+  left: 1.5rem;
+}
+
 .left-7 {
   left: 1.75rem;
 }
 
+.right-6 {
+  right: 1.5rem;
+}
+
+.top-20 {
+  top: 5rem;
+}
+
 .top-24 {
   top: 6rem;
+}
+
+.z-40 {
+  z-index: 40;
 }
 
 .mx-auto {
@@ -805,8 +821,16 @@ video {
   border-radius: 0.5rem;
 }
 
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
 .border-2 {
   border-width: 2px;
+}
+
+.border-t {
+  border-top-width: 1px;
 }
 
 .bg-cyan {
@@ -1002,9 +1026,10 @@ video {
 .hamburger-top,
 .hamburger-middle,
 .hamburger-bottom {
+  content: "";
   position: absolute;
   width: 24px;
-  height: 2px;
+  height: 3px;
   top: 0;
   left: 0;
   background: #fff;
