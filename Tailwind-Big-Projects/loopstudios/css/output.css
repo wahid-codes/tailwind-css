@@ -971,12 +971,12 @@ h5 {
   transform: rotate(45deg) translateY(6px) translateX(6px);
 }
 
-.open .hambuger-middle {
+.open .hamburger-middle {
   display: none;
 }
 
 .open .hamburger-bottom {
-  transform: translate(-45deg) translateY(6px) transformX(-6px);
+  transform: rotate(-45deg) translateY(6px) translateX(-6px);
 }
 
 .focus\:outline-none:focus {
