@@ -746,16 +746,6 @@ h5 {
   padding-bottom: 3rem;
 }
 
-.py-48 {
-  padding-top: 12rem;
-  padding-bottom: 12rem;
-}
-
-.py-24 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
 .pt-16 {
   padding-top: 4rem;
 }
@@ -774,19 +764,14 @@ h5 {
   line-height: 1.75rem;
 }
 
-.text-grayishBlue {
-  --tw-text-opacity: 1;
-  color: hsl(201 11% 66% / var(--tw-text-opacity, 1));
-}
-
-.text-gray-400 {
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity, 1));
-}
-
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity, 1));
+}
+
+.text-grayishBlue {
+  --tw-text-opacity: 1;
+  color: hsl(201 11% 66% / var(--tw-text-opacity, 1));
 }
 
 .shadow-lg {
